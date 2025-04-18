@@ -1,0 +1,57 @@
+h2{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    color: goldenrod;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
+.Heading{
+    background-color:crimson;
+}
+nav{
+   text-align: right;
+   display:block;
+   padding: 8px 16px;
+   background-color:blanchedalmond;
+
+}
+.main{
+    margin: 0x;
+    padding: 0;
+}
+body{
+    margin:0
+}
+.desc{
+    
+   
+ 
+    text-align:left;
+    text-decoration: wavy;
+}
+img{
+    width: 79%;
+    height: 57%;
+    margin: 10px;
+}
+.back{
+    margin: 0;
+    background-color: burlywood;
+}
+.foot{
+    padding: 14 px 16px;
+    margin: 0;
+    background-color: brown;
+}
+p{
+    margin-bottom: 0;
+    margin-left: 20;
+    margin-top: 0;
+   
+}
