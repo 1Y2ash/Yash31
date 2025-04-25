@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <title>Seminar Registration</title>
+        <link rel="stylesheet" href="Pr8.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <h2>Seminar Registration Form</h2>
+                <form>
+                    <div class="ing">
+                        <i class="fa-regular fa-circle-user"></i>
+                        <input type="text" name="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="ing">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="ing">
+                        <i class="fa-regular fa-address-book"></i>
+                        <input type="number" placeholder="Mobile Number" required>
+                    </div>
+                    <div class="ing">
+                        <i class="fa-regular fa-building"></i>
+                        <input type="text" placeholder="Institute Name" required>
+                    </div>
+                    <div class="ing">
+                        <i class="fa-regular fa-calendar-days"></i>
+                        <input type="Year" placeholder="Year" required>
+                    </div>
+                    <div class="ing">
+                        <i class="fa-regular fa-address-card"></i>
+                        <input type="text" placeholder="Address" required>
+                    </div>
+                    <div class="ing">
+                        <i class="fa-regular fa-chart-bar"></i>
+                        <select>
+                            <option>Select Your Branch</option>
+                            <option>AI-ML</option>
+                            <option>AI-DS</option>
+                            <option>CSE</option>
+                            <option>ME</option>
+                            <option>EE</option>
+                            <option>ETC</option>
+                        </select>
+                    </div>
+                    <div class="ing">
+                        <i class="fa-regular fa-credit-card"></i>
+                        <label for="Mode of payment">Mode of payment</label>
+                        <input type="radio" value="Online" required>
+                        <label for="Online">
+                            Online
+                        </label>
+                        <input type="radio" placeholder="Offline" required>
+                        <label for="Online">
+                            Offline
+                        </label>
+                    </div>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
