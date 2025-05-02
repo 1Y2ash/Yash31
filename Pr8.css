@@ -1,0 +1,95 @@
+/* Pr8.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.box {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 25px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+form .ing {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+form .ing i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="Year"],
+form select {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+form select {
+    background-color: #fff;
+}
+
+.ing label {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #444;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #3c78c7;
+}
+
+@media (max-width: 600px) {
+    .box {
+        padding: 20px 15px;
+    }
+}
